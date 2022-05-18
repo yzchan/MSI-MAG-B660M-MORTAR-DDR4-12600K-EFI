@@ -1,6 +1,9 @@
-# About
+# MSI-MAG-B660M-MORTAR-DDR4-12600K-EFI
+微星B660m迫击炮D4版（不带wifi） + 12600K 黑苹果EFI。
 
-| 组件 | 名称 |
+## 配置
+
+| 配置 | 型号 |
 | --- | --- |
 | CPU | [Intel i5 12600K](https://ark.intel.com/content/www/cn/zh/ark/products/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz.html) |
 | 主板 | [微星MAG B660M MORTAR DDR4](https://cn.msi.com/Motherboard/MAG-B660M-MORTAR-DDR4) |
@@ -8,14 +11,25 @@
 | 网卡 | BCM94360CD 4 天线 |
 | 硬盘 | [Samsung SSD 970 EVO Plus 500GB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) |
 | OC版本 | 0.8.0 |
-| macOS | macOS Monterey 12.3.1(21E258) |
+| macOS | macOS Monterey 12.3.1 (21E258) |
 | 机型 | MacPro7,1 |
 
 
-# Links
+## Links
 
-https://github.com/alyxferrari/OpenCore-Install-Guide/blob/alderlake/config.plist/alder-lake.md
+- [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
+- [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+- https://github.com/alyxferrari/OpenCore-Install-Guide/blob/alderlake/config.plist/alder-lake.md
+- https://github.com/duxphp/Hackintosh-12700KF-B660M-MORTAR-6600XT
+- https://zhuanlan.zhihu.com/p/487736399
 
-https://github.com/duxphp/Hackintosh-12700KF-B660M-MORTAR-6600XT
+## Tools
 
-https://zhuanlan.zhihu.com/p/487736399
+- [OC Auxiliary Tools](https://github.com/ic005k/QtOpenCoreConfig) OCAT
+- [ProperTree](https://github.com/corpnewt/ProperTree)
+- [Hackintool](https://github.com/headkaze/Hackintool)
+
+## 更新记录
+
+### 2022-05-18
+正常进入系统，蓝牙、wifi、声卡、网卡正常。appid登录正常。其他功能待测试。
