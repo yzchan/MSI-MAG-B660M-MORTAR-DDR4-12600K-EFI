@@ -15,21 +15,38 @@
 | 机型 | MacPro7,1 |
 
 
+## BIOS设置
+
+- 关闭CSM（启动模式仅UEFI）
+- 关闭Fast Boot
+- 关闭Intel VT-D
+- 关闭CFG Lock
+- 最好屏蔽核显
+- 大小核均可开启
+- 超线程开启
+
 ## Links
 
-- [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
-- [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+- https://zhuanlan.zhihu.com/p/487736399
 - https://github.com/alyxferrari/OpenCore-Install-Guide/blob/alderlake/config.plist/alder-lake.md
 - https://github.com/duxphp/Hackintosh-12700KF-B660M-MORTAR-6600XT
-- https://zhuanlan.zhihu.com/p/487736399
+- https://github.com/Xmingbai/ASUS-TUF-GAMING-B660M-PLUS-Wi-Fi-D4-Hackintosh
 
 ## Tools
 
 - [OC Auxiliary Tools](https://github.com/ic005k/QtOpenCoreConfig) OCAT
 - [ProperTree](https://github.com/corpnewt/ProperTree)
 - [Hackintool](https://github.com/headkaze/Hackintool)
+- [OpenCore](https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html)
+- [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 
 ## 更新记录
+
+### 2022-05-21
+
+- 定制了USB，睡眠唤醒正常
+- 隔空投送正常，通用控制也可以使用。
+- Geekbench5跑分正常（单核1970，多核11290）。
 
 ### 2022-05-18
 正常进入系统，蓝牙、wifi、声卡、网卡正常。appid登录正常。其他功能待测试。
