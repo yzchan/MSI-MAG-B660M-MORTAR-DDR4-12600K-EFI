@@ -11,15 +11,22 @@
 | 内存 | 宇瞻黑豹DDR4 3600 8Gx2 |
 | 网卡 | BCM94360CD 4 天线 |
 | 硬盘 | [Samsung SSD 970 EVO Plus 500GB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) |
-| OC版本 | 0.8.2 |
-| macOS | macOS Monterey 12.4 (21F79) |
+| OC版本 | 0.8.3 |
+| macOS | macOS Monterey 12.5 (21G72) |
 | 机型 | MacPro7,1 |
 
 ## 更新记录
 
+### 2022-08-02
+
+- 更新opencore 0.8.3
+- 系统更新到12.5
+
+添加了CpuTopologyRebuild.kext，可以正确识别12600K为10核16线程。
+
 ### 2022-07-07
 
-- 更新opencore 0.8.2 （使用OC Auxiliary Tools更新，很顺利）
+- 更新opencore 0.8.2
 - 系统更新到12.4 （正式版的通用控制稳定多了）
 
 另外如果BIOS开启“USB设备从S3/S4/S5唤醒”会导致关机状态下动一下鼠标就自动开机。需要同时打开ERP-Ready。感谢 [lyq1996](https://github.com/lyq1996) 的[提醒](https://github.com/yzchan/MSI-MAG-B660M-MORTAR-DDR4-12600K-EFI/commit/537c90d81cd98eafe2ab5ab3f6e989cfa87afcdd)。
