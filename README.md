@@ -12,15 +12,20 @@
 | 网卡 | BCM94360CD 4 天线 |
 | 硬盘 | [Samsung SSD 970 EVO Plus 500GB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) |
 | OC版本 | 0.8.5 |
-| macOS | macOS Monterey 12.6 (21G115) |
+| macOS | macOS Ventura 13.0 (22A380) |
 | 机型 | MacPro7,1 |
 
 ## 更新记录
+
+### 2022-11-04
+
+- 系统更新到Ventura 13.0
 
 ### 2022-10-04
 
 - 更新opencore 0.8.5
 - 系统更新到12.6
+
 ### 2022-08-02
 
 - 更新opencore 0.8.3
