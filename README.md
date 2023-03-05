@@ -7,15 +7,20 @@
 | --- | --- |
 | CPU | [Intel i5 12600K](https://ark.intel.com/content/www/cn/zh/ark/products/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz.html) |
 | 主板 | [微星MAG B660M MORTAR DDR4](https://cn.msi.com/Motherboard/MAG-B660M-MORTAR-DDR4) |
-| 显卡 | [华硕AREZ-RX560-O2G-EVO](https://www.asus.com/motherboards-components/graphics-cards/arez/arez-rx560-o2g-evo/) |
+| 显卡 | [华硕AREZ-RX560-O2G-EVO](https://www.asus.com/motherboards-components/graphics-cards/arez/arez-rx560-o2g-evo/) -> [撼讯RX5600XT红龙](https://www.powercolor.com/cn/product?id=1577415960) |
 | 内存 | 宇瞻黑豹DDR4 3600 8Gx2 |
 | 网卡 | BCM94360CD 4 天线 |
 | 硬盘 | [Samsung SSD 970 EVO Plus 500GB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) |
 | OC版本 | 0.8.5 |
-| macOS | macOS Ventura 13.0 (22A380) |
+| macOS | macOS Ventura 13.2.1 (22D68) |
 | 机型 | MacPro7,1 |
 
 ## 更新记录
+### 2023-03-05
+
+- 更新opencore 0.8.9
+- 系统更新到Ventura 13.2.1
+- 更换了撼讯RX5600XT红龙显卡，启动参数添加了agdpmod=pikera以支持rx5000/rx6000系列显卡（rx560显卡自行去除该参数）
 
 ### 2022-12-12
 
