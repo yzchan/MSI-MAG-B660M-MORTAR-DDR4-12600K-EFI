@@ -11,16 +11,22 @@
 | 内存 | 宇瞻黑豹DDR4 3600 8Gx2 |
 | 网卡 | BCM94360CD 4 天线 |
 | 硬盘 | [Samsung SSD 970 EVO Plus 500GB](https://www.samsungeshop.com.cn/product/MZ-V7S/MZ-V7S250BW) |
-| OC版本 | 0.8.5 |
-| macOS | macOS Ventura 13.2.1 (22D68) |
+| OC版本 | 0.9.7 |
+| macOS | macOS Ventura 13.6.3 (22G436) |
 | 机型 | MacPro7,1 |
 
 ## 更新记录
+
+### 2024-01-13
+
+- 更新opencore 0.9.7
+- 系统更新到Ventura 13.6.3
 
 ### 2023-05-10
 
 - 更新opencore 0.9.2
 - 系统更新到Ventura 13.3.1 (a)
+
 ### 2023-03-05
 
 - 更新opencore 0.8.9
